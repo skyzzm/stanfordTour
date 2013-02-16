@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36766B4F16CF4310008F2C73 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36766B4E16CF4310008F2C73 /* ImageViewController.m */; };
+		36766B5216CF4A08008F2C73 /* recentPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36766B5116CF4A08008F2C73 /* recentPhotosViewController.m */; };
+		36ACDC9F16CF05740087464E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36ACDC9E16CF05740087464E /* UIKit.framework */; };
+		36ACDCA116CF05740087464E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36ACDCA016CF05740087464E /* Foundation.framework */; };
+		36ACDCA316CF05740087464E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36ACDCA216CF05740087464E /* CoreGraphics.framework */; };
+		36ACDCA916CF05740087464E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36ACDCA716CF05740087464E /* InfoPlist.strings */; };
+		36ACDCAB16CF05740087464E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ACDCAA16CF05740087464E /* main.m */; };
+		36ACDCAF16CF05740087464E /* tourAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ACDCAE16CF05740087464E /* tourAppDelegate.m */; };
+		36ACDCB116CF05740087464E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36ACDCB016CF05740087464E /* Default.png */; };
+		36ACDCB316CF05740087464E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36ACDCB216CF05740087464E /* Default@2x.png */; };
+		36ACDCB516CF05740087464E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36ACDCB416CF05740087464E /* Default-568h@2x.png */; };
+		36ACDCB816CF05740087464E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ACDCB616CF05740087464E /* MainStoryboard.storyboard */; };
+		36ACDCC316CF05C10087464E /* tourTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ACDCC216CF05C10087464E /* tourTVC.m */; };
+		36ACDCC916CF086B0087464E /* LatestFlickrPhotosTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ACDCC816CF086B0087464E /* LatestFlickrPhotosTVCViewController.m */; };
+		36ACDCCE16CF09330087464E /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ACDCCD16CF09330087464E /* FlickrFetcher.m */; };
+		36ACDCD116CF09E70087464E /* photosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ACDCD016CF09E60087464E /* photosTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36766B4D16CF4310008F2C73 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		36766B4E16CF4310008F2C73 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		36766B5016CF4A08008F2C73 /* recentPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recentPhotosViewController.h; sourceTree = "<group>"; };
+		36766B5116CF4A08008F2C73 /* recentPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recentPhotosViewController.m; sourceTree = "<group>"; };
+		36ACDC9B16CF05740087464E /* stanfordTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanfordTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ACDC9E16CF05740087464E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36ACDCA016CF05740087464E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36ACDCA216CF05740087464E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36ACDCA616CF05740087464E /* stanfordTour-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stanfordTour-Info.plist"; sourceTree = "<group>"; };
+		36ACDCA816CF05740087464E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36ACDCAA16CF05740087464E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36ACDCAC16CF05740087464E /* stanfordTour-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stanfordTour-Prefix.pch"; sourceTree = "<group>"; };
+		36ACDCAD16CF05740087464E /* tourAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tourAppDelegate.h; sourceTree = "<group>"; };
+		36ACDCAE16CF05740087464E /* tourAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tourAppDelegate.m; sourceTree = "<group>"; };
+		36ACDCB016CF05740087464E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		36ACDCB216CF05740087464E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		36ACDCB416CF05740087464E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		36ACDCB716CF05740087464E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		36ACDCC116CF05C10087464E /* tourTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tourTVC.h; sourceTree = "<group>"; };
+		36ACDCC216CF05C10087464E /* tourTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tourTVC.m; sourceTree = "<group>"; };
+		36ACDCC716CF086B0087464E /* LatestFlickrPhotosTVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LatestFlickrPhotosTVCViewController.h; path = ../LatestFlickrPhotosTVCViewController.h; sourceTree = "<group>"; };
+		36ACDCC816CF086B0087464E /* LatestFlickrPhotosTVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LatestFlickrPhotosTVCViewController.m; path = ../LatestFlickrPhotosTVCViewController.m; sourceTree = "<group>"; };
+		36ACDCCB16CF09330087464E /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		36ACDCCC16CF09330087464E /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		36ACDCCD16CF09330087464E /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		36ACDCCF16CF09E60087464E /* photosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = photosTVC.h; sourceTree = "<group>"; };
+		36ACDCD016CF09E60087464E /* photosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = photosTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36ACDC9816CF05740087464E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ACDC9F16CF05740087464E /* UIKit.framework in Frameworks */,
+				36ACDCA116CF05740087464E /* Foundation.framework in Frameworks */,
+				36ACDCA316CF05740087464E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36ACDC9216CF05740087464E = {
+			isa = PBXGroup;
+			children = (
+				36ACDCA416CF05740087464E /* stanfordTour */,
+				36ACDC9D16CF05740087464E /* Frameworks */,
+				36ACDC9C16CF05740087464E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36ACDC9C16CF05740087464E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36ACDC9B16CF05740087464E /* stanfordTour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36ACDC9D16CF05740087464E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36ACDC9E16CF05740087464E /* UIKit.framework */,
+				36ACDCA016CF05740087464E /* Foundation.framework */,
+				36ACDCA216CF05740087464E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36ACDCA416CF05740087464E /* stanfordTour */ = {
+			isa = PBXGroup;
+			children = (
+				36ACDCB616CF05740087464E /* MainStoryboard.storyboard */,
+				36766B4D16CF4310008F2C73 /* ImageViewController.h */,
+				36766B4E16CF4310008F2C73 /* ImageViewController.m */,
+				36ACDCCF16CF09E60087464E /* photosTVC.h */,
+				36ACDCD016CF09E60087464E /* photosTVC.m */,
+				36ACDCC116CF05C10087464E /* tourTVC.h */,
+				36ACDCC216CF05C10087464E /* tourTVC.m */,
+				36ACDCC716CF086B0087464E /* LatestFlickrPhotosTVCViewController.h */,
+				36ACDCC816CF086B0087464E /* LatestFlickrPhotosTVCViewController.m */,
+				36766B5016CF4A08008F2C73 /* recentPhotosViewController.h */,
+				36766B5116CF4A08008F2C73 /* recentPhotosViewController.m */,
+				36ACDCCA16CF09330087464E /* FlickrFetcher */,
+				36ACDCA516CF05740087464E /* Supporting Files */,
+			);
+			path = stanfordTour;
+			sourceTree = "<group>";
+		};
+		36ACDCA516CF05740087464E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36ACDCAD16CF05740087464E /* tourAppDelegate.h */,
+				36ACDCAE16CF05740087464E /* tourAppDelegate.m */,
+				36ACDCA616CF05740087464E /* stanfordTour-Info.plist */,
+				36ACDCA716CF05740087464E /* InfoPlist.strings */,
+				36ACDCAA16CF05740087464E /* main.m */,
+				36ACDCAC16CF05740087464E /* stanfordTour-Prefix.pch */,
+				36ACDCB016CF05740087464E /* Default.png */,
+				36ACDCB216CF05740087464E /* Default@2x.png */,
+				36ACDCB416CF05740087464E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36ACDCCA16CF09330087464E /* FlickrFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				36ACDCCB16CF09330087464E /* FlickrAPIKey.h */,
+				36ACDCCC16CF09330087464E /* FlickrFetcher.h */,
+				36ACDCCD16CF09330087464E /* FlickrFetcher.m */,
+			);
+			path = FlickrFetcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36ACDC9A16CF05740087464E /* stanfordTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36ACDCBE16CF05740087464E /* Build configuration list for PBXNativeTarget "stanfordTour" */;
+			buildPhases = (
+				36ACDC9716CF05740087464E /* Sources */,
+				36ACDC9816CF05740087464E /* Frameworks */,
+				36ACDC9916CF05740087464E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stanfordTour;
+			productName = stanfordTour;
+			productReference = 36ACDC9B16CF05740087464E /* stanfordTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36ACDC9316CF05740087464E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tour;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CS193p;
+			};
+			buildConfigurationList = 36ACDC9616CF05740087464E /* Build configuration list for PBXProject "stanfordTour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36ACDC9216CF05740087464E;
+			productRefGroup = 36ACDC9C16CF05740087464E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36ACDC9A16CF05740087464E /* stanfordTour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36ACDC9916CF05740087464E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ACDCA916CF05740087464E /* InfoPlist.strings in Resources */,
+				36ACDCB116CF05740087464E /* Default.png in Resources */,
+				36ACDCB316CF05740087464E /* Default@2x.png in Resources */,
+				36ACDCB516CF05740087464E /* Default-568h@2x.png in Resources */,
+				36ACDCB816CF05740087464E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36ACDC9716CF05740087464E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ACDCAB16CF05740087464E /* main.m in Sources */,
+				36ACDCAF16CF05740087464E /* tourAppDelegate.m in Sources */,
+				36ACDCC316CF05C10087464E /* tourTVC.m in Sources */,
+				36ACDCC916CF086B0087464E /* LatestFlickrPhotosTVCViewController.m in Sources */,
+				36ACDCCE16CF09330087464E /* FlickrFetcher.m in Sources */,
+				36ACDCD116CF09E70087464E /* photosTVC.m in Sources */,
+				36766B4F16CF4310008F2C73 /* ImageViewController.m in Sources */,
+				36766B5216CF4A08008F2C73 /* recentPhotosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36ACDCA716CF05740087464E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36ACDCA816CF05740087464E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36ACDCB616CF05740087464E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36ACDCB716CF05740087464E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36ACDCBC16CF05740087464E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36ACDCBD16CF05740087464E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36ACDCBF16CF05740087464E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanfordTour/stanfordTour-Prefix.pch";
+				INFOPLIST_FILE = "stanfordTour/stanfordTour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36ACDCC016CF05740087464E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stanfordTour/stanfordTour-Prefix.pch";
+				INFOPLIST_FILE = "stanfordTour/stanfordTour-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36ACDC9616CF05740087464E /* Build configuration list for PBXProject "stanfordTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ACDCBC16CF05740087464E /* Debug */,
+				36ACDCBD16CF05740087464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36ACDCBE16CF05740087464E /* Build configuration list for PBXNativeTarget "stanfordTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ACDCBF16CF05740087464E /* Debug */,
+				36ACDCC016CF05740087464E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36ACDC9316CF05740087464E /* Project object */;
+}
